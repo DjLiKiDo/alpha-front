@@ -1,0 +1,27 @@
+.homePage {
+    text-align: center;
+    background-image: url('../../assets/images/background.png');
+    background-size: cover;
+    color: white;
+  }
+  
+  .mainSection {
+    padding: 4rem 0;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mainButton {
+    background-color: #00695c;
+    border: none;
+    color: white;
+  }
+  
