@@ -1,3 +1,25 @@
 .contactContainer {
-  /* Aquí puedes añadir los estilos específicos para la página de contacto */
+  background-color: var(--background-content);
+  color: var(--text-color);
+  padding: 2rem;
+}
+
+.contactSection {
+  margin: 2rem 0;
+}
+
+.contactTitle {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.contactSubtitle {
+  color: var(--text-secondary-color);
+  margin-bottom: 2rem;
+}
+
+.contactForm {
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid var(--color-primary);
 }

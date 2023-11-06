@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import HomePage from "./views/HomePage/HomePage";
 import ContactPage from "./views/ContactPage/ContactPage";
-import "./App.css"
-
+import "./App.css";
 
 const App: React.FC = () => {
   return (

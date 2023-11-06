@@ -1,10 +1,27 @@
+:root {
+  --color-primary: #005f73;
+  --color-secondary: #0a9396;
+  --background-content: #e9d8a6;
+  --text-color: #3d405b;
+  --text-secondary-color: #81b29a;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-content);
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 code {
