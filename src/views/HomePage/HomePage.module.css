@@ -1,27 +1,47 @@
 .homePageContainer {
-  background-color: var(--background-content);
-  color: var(--text-color);
+  padding: 0; /* Se elimina el padding para que la imagen de héroe cubra todo el ancho */
+}
+
+.heroSection {
+  background-image: url('../../assets/images/hero-image.png'); /* Usa la ruta relativa desde el CSS hasta la imagen */
+  background-size: cover; /* Asegura que la imagen de fondo cubra todo el espacio disponible */
+  background-position: center; /* Centra la imagen de fondo */
+  height: 90vh; /* Altura de la sección del héroe */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center; /* Centra el contenido horizontalmente */
+  color: var(--color-background); /* Texto blanco o claro según tu paleta de colores */
+  text-align: center; /* Texto centrado */
   padding: 2rem;
 }
 
-.mainSection {
-  margin: 2rem 0;
-}
-
 .title {
-  color: var(--color-primary);
+  font-size: 3rem; /* Tamaño más grande para el título */
+  color: var(--color-background); /* Asegúrate de que el título se destaque sobre la imagen de fondo */
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto para mejorar la legibilidad */
 }
 
 .subtitle {
-  color: var(--text-secondary-color);
+  font-size: 1.5rem; /* Tamaño más grande para el subtítulo */
+  color: var(--color-background);
   margin-bottom: 2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra de texto para mejorar la legibilidad */
 }
 
 .mainButton {
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent); /* Utiliza el color de acento para el botón */
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem; /* Aumenta el padding para un botón más grande y visible */
   cursor: pointer;
+  font-size: 1.2rem; /* Aumenta el tamaño de fuente para que coincida con la escala del héroe */
+  border-radius: 5px; /* Opcional: añade bordes redondeados al botón */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de caja para el botón */
+  transition: background-color 0.3s ease; /* Transición suave para efectos de hover */
+}
+
+.mainButton:hover {
+  background-color: var(--color-secondary); /* Cambio de color al pasar el ratón por encima */
 }

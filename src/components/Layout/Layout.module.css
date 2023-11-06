@@ -3,7 +3,7 @@
   flex-direction: column;
   min-height: 100vh;
   text-align: center;
-  background-image: url("../../assets/images/background.png"); /* Asegúrate de que la ruta sea correcta */
+  /* background-image: url("../../assets/images/background.png"); Asegúrate de que la ruta sea correcta */
   background-size: cover;
 }
 
