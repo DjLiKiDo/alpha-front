@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card as BootstrapCard } from 'react-bootstrap';
-import styles from './Card.module.scss'; // Importing the SCSS module
+import styles from './Card.module.css'; // Importing the SCSS module
 
 // Define the prop types for the Card component
 interface CardProps {
