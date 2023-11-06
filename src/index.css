@@ -1,37 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+/* :root {
+  --color-primary: #003366;
+  --color-secondary: #228b22;
+  --color-accent: #ffa500;
+  --color-background: #ffffff;
+  --color-text: #3d405b;
+  --color-text-secondary: #a9a9a9;
+  --color-footer: #d3d3d3;
+} */
 
 :root {
-  --color-primary: #003366; /* Azul oscuro */
-  --color-secondary: #228B22; /* Verde bosque */
-  --color-accent: #FFA500; /* Naranja para llamadas a la acción */
-  --color-background: #FFFFFF; /* Blanco para fondo */
-  --color-text: #3d405b; /* Gris oscuro para texto */
-  --color-text-secondary: #A9A9A9; /* Gris claro para texto secundario */
-  --color-footer: #D3D3D3; /* Gris claro para pie de página */
+  --color-primary: #293462; /* Azul marino oscuro */
+  --color-secondary: #216583; /* Azul petróleo */
+  --color-accent: #f76c5e; /* Rojo coral */
+  --color-background: #ffffff; /* Blanco para fondo */
+  --color-text: #101010; /* Negro casi para texto */
+  --color-text-secondary: #666666; /* Gris medio para texto secundario */
+  --color-footer: #eaeaea; /* Gris muy claro para pie de página */
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: var(--color-background);
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
   color: var(--color-primary); /* Utiliza el color primario para títulos */
 }
 
 .navbarBrand {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-primary);
   font-size: 1.5em; /* Tamaño más grande para mayor visibilidad */
 }
 
 code {
-  font-family: 'Lato', sans-serif; /* Cambia a Lato para una apariencia más moderna */
+  font-family: "Lato", sans-serif; /* Cambia a Lato para una apariencia más moderna */
 }
 
 /* Nuevos estilos para la navegación */
@@ -117,14 +132,6 @@ code {
 }
 
 /* Agrega tus estilos adicionales aquí */
-
-
-
-
-
-
-
-
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
