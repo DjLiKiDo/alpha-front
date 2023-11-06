@@ -1,20 +1,8 @@
+/* Styles for Header component */
 .header {
-  background-color: var(--color-primary);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 2rem;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add other styles as needed */
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navItem {
-  margin-left: 1rem;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}

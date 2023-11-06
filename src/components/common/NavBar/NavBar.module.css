@@ -1,0 +1,62 @@
+/* Styles for NavBar component */
+.navbar {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbarLogo {
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+  }
+  
+  .navbarNav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  .navItem {
+    display: flex;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover,
+  .navLink:active,
+  .active {
+    color: var(--color-secondary);
+    text-decoration: underline;
+  }
+  
+  /* Consulta de medios para dispositivos móviles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbarNav {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navItem {
+      width: 100%;
+    }
+  
+    .navLink {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid white;
+    }
+  }
+  
