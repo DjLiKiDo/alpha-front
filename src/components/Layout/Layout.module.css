@@ -12,5 +12,5 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white; /* Asegúrate de que el color del texto sea visible sobre el fondo */
+  color: black; /* Asegúrate de que el color del texto sea visible sobre el fondo */
 }
