@@ -1,31 +1,35 @@
-
 .card {
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: box-shadow 0.3s ease-in-out;
-  
-    &:hover {
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    }
-  
-    &-img {
-      height: 180px;
-      object-fit: cover;
-    }
-  
-    &-title {
-      font-size: 1.25rem;
-      margin-bottom: 0.5rem;
-    }
-  
-    &-text {
-      color: #666;
-    }
-  
-    &-footer {
-      font-size: 0.875rem;
-      background-color: #f8f9fa;
-      color: #333;
-    }
-  }
-  
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardImg {
+  height: 180px;
+  object-fit: cover;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardText {
+  color: #666;
+}
+
+.cardFooter {
+  font-size: 0.875rem;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.cardHover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}

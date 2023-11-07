@@ -1,28 +1,20 @@
 import React from 'react';
-
-import styles from './ServicesPage.module.css';
+import { Row, Col } from 'react-bootstrap';
 import Card from '../../components/common/Card/Card';
 
-const ServicesPage: React.FC = () => {
-  // Datos aleatorios para las tarjetas
-  const cardData = [
-    { title: 'Service 1', text: 'Description for service 1', imgSrc: 'image1.jpg', footer: 'Footer 1' },
-    { title: 'Service 2', text: 'Description for service 2', imgSrc: 'image2.jpg', footer: 'Footer 2' },
-    { title: 'Service 3', text: 'Description for service 3', imgSrc: 'image3.jpg', footer: 'Footer 3' },
-    { title: 'Service 4', text: 'Description for service 4', imgSrc: 'image4.jpg', footer: 'Footer 4' },
-  ];
-
+const ServicesPage = () => {
   return (
-    <div className={styles.servicesPageContainer}>
-      {cardData.map((card, index) => (
-        <Card
-          key={index}
-          title={card.title}
-          text={card.text}
-          imgSrc={card.imgSrc}
-          footer={card.footer}
-        />
-      ))}
+    <div className="container my-4">
+      <Row>
+        {Array.from({ length: 4 }).map((_, idx) => (
+          <Col md={6} lg={3} className="mb-4" key={idx}>
+            <Card 
+              title={`Servicio ${idx + 1}`} 
+              text="Descripción del servicio..."
+            />
+          </Col>
+        ))}
+      </Row>
     </div>
   );
 };
