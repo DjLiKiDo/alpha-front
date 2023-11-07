@@ -15,7 +15,7 @@ const NavBar = () => {
               : styles.navLink
           }
         >
-          <img src={logo} alt="Alpha Logo" className={styles.navbarLogo} />
+          <img src={logo} alt="Alpha Logo" className={styles.navbarLogo} data-testid="alpha-logo" />
         </NavLink>
       </div>
       <ul className={styles.navbarNav}>
